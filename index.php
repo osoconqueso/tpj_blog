@@ -2,9 +2,11 @@
 include("functions.php");
 ?>
 
-<html>
+<html lang="en">
 <head>
-<!--    <link type="text/css" rel="stylesheet" href="blogstyle.css"/>-->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!--    <link type="text/css" rel="stylesheet" href="blogstyle.css"/>-->
    <title>tpj blog</title>
    <link rel="stylesheet" type="text/css" href="main.css">
    
