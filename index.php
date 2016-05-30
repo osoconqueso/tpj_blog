@@ -11,7 +11,10 @@ include("functions.php");
    <link rel="stylesheet" type="text/css" href="main.css">
    
    <!-- Latest compiled and minified CSS -->
-   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css" integrity="sha384-XXXXXXXX" crossorigin="anonymous">
+
+   
+   
    
 </head>
 
@@ -34,7 +37,7 @@ include("functions.php");
             </ul>
          </div>
       </div>
-      <h3>tpj blog</h3>
+      <h3>TPJ blog</h3>
       
       <div>
          <ul class="nav">
@@ -72,5 +75,8 @@ include("functions.php");
    
    <!-- Latest compiled JavaScript -->
    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   
+   <!--Bootstrap JavaScript. Unsure of use-->
+   <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js" integrity="sha384-XXXXXXXX" crossorigin="anonymous"></script>
 </body>
 </html>
