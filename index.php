@@ -16,9 +16,11 @@ include("functions.php");
 </head>
 
 <body>
-   <div class="">
-      <div class="">
-         
+   <div class="container">
+      <div class="navbar navbar-inverted">
+         <div class="container-fluid">
+            
+         </div>
       </div>
       <h3>tpj blog</h3>
       
