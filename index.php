@@ -19,7 +19,19 @@ include("functions.php");
    <div class="container">
       <div class="navbar navbar-inverted">
          <div class="container-fluid">
-            
+            <div class="navbar-header">
+               <a class="navbar-brand" href="index.php">TPJ</a>
+            </div>
+            <ul class="nav navbar-nav">
+               <li class="active"><a href="index.php">Home</a></li>
+               <li><a href="#">blogs</a></li>
+               <li><a href="#">reports</a></li>
+               <li><a href="#">sign-up</a></li>
+               <li><span class="glyphicon glyphicon-search"><input type="text" placeholder="Search" /></li>
+               <li><a href="#">about</a></li>
+               <li><a href="#">support us</a></li>
+               <li><a href="#">contact</a></li>
+            </ul>
          </div>
       </div>
       <h3>tpj blog</h3>
