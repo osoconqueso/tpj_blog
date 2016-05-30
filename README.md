@@ -1,4 +1,1 @@
 # TPJ Blog
-
-more censorship!
- 
