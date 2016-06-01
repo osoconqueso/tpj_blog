@@ -5,13 +5,15 @@ include("functions.php");
 <html lang="en">
 <head>
    <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--"shrink-to-fit=no" can be added below after "initial scale=1" for Safari 9.0 users to override behaviour that scales down the page-->
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <!--    <link type="text/css" rel="stylesheet" href="blogstyle.css"/>-->
    <title>tpj blog</title>
    <link rel="stylesheet" type="text/css" href="main.css">
    
    <!-- Latest compiled and minified CSS -->
-   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">-->
    
    <!-- Bootstrap 4 CDN link -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
