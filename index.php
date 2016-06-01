@@ -23,6 +23,18 @@ include("functions.php");
 </head>
 
 <body>
+<div class="collapse" id="exCollapsingNavbar">
+    <div class="bg-inverse p-a-1">
+        <h4>Menu</h4>
+        <span class="text-muted">Toggleabled crap here. Slide? </span>
+    </div>
+</div>
+<nav class="navbar navbar-light bg-faded">
+    <button class="navbar-toggler navbar-toggleable-*" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+        &#9776;
+    </button>
+</nav>
+
    <div class="container">
       <div class="navbar navbar-inverted">
          <div class="container-fluid">
@@ -75,11 +87,11 @@ include("functions.php");
       <!--</div>-->
    </div>
    <!-- jQuery library -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-   
-   <!-- Latest compiled JavaScript -->
-   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-   
+<!--   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>-->
+<!--   -->
+<!--   <!-- Latest compiled JavaScript -->-->
+<!--   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+<!--   -->
    <!--Bootstrap 4 JavaScript-->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
