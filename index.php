@@ -7,7 +7,7 @@ include("functions.php");
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--"shrink-to-fit=no" can be added below after "initial scale=1" for Safari 9.0 users to override behaviour that scales down the page-->
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <!--    <link type="text/css" rel="stylesheet" href="blogstyle.css"/>-->
    <title>tpj blog</title>
    <link rel="stylesheet" type="text/css" href="main.css">
@@ -23,19 +23,26 @@ include("functions.php");
 </head>
 
 <body>
-<div class="collapse" id="exCollapsingNavbar">
-    <div class="bg-inverse p-a-1">
-        <h4>Menu</h4>
-        <span class="text-muted">Toggleabled crap here. Slide? </span>
-    </div>
+<div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="collapse" id="exCollapsingNavbar">
+                <div class="bg-inverse p-a-1">
+                    <h4>Menu</h4>
+                    <span class="text-muted">Toggleabled crap here. Slide? </span>
+                </div>
+            </div>
+            <nav class="navbar navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                    &#9776;
+                </button>
+            </nav>
+            </div>
+        </div>
 </div>
-<nav class="navbar navbar-light bg-faded">
-    <button class="navbar-toggler navbar-toggleable-*" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
-        &#9776;
-    </button>
-</nav>
 
    <div class="container">
+
       <div class="navbar navbar-inverted">
          <div class="container-fluid">
             <div class="navbar-header">
@@ -51,6 +58,7 @@ include("functions.php");
                <li><a href="#">support us</a></li>
                <li><a href="#">contact</a></li>
             </ul>
+            </div>
          </div>
       </div>
       <h3>TPJ blog</h3>
