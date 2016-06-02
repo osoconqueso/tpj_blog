@@ -18,7 +18,7 @@ include("functions.php");
 
 <body>
 
-<nav class="navbar navbar-light navbar-fixed-top">
+<nav class="navbar navbar-light navbar-fixed-top" id="topnav">
     <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#tpjNavbar">
         &#9776;
     </button>
@@ -35,64 +35,18 @@ include("functions.php");
                 <a class="nav-link" href="#">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Sign Up</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="#"><span class="glyphicon glyphicon-search"><input type="text" placeholder="Search" />
             </li>
         </ul>
     </div>
 </nav>
+<div id="splish">
+    <div id="splish-cap">
+        <h1>Texans for Public Justice</h1>
+        <a href="" class="btn btn-md btn-info">Sign up</a>
+    </div>
+</div>
 
-<!--<div>-->
-<!--padding-top-1 rem = p-t-1 -->
-<!--    <div class="container-fluid p-t-1 bg">-->
-<!--        <div class="row">-->
-<!--            <div class="collapse" id="exCollapsingNavbar">-->
-<!--                <div class="p-a-1">-->
-<!--                    <a href="index.php">TPJ</a>-->
-<!--                        <ul class="nav navbar-nav">-->
-<!--                            <li class="active"><a href="index.php">Home</a></li>-->
-<!--                            <li><a href="#">blogs</a></li>-->
-<!--                            <li><a href="#">reports</a></li>-->
-<!--                            <li><a href="#">sign-up</a></li>-->
-<!--                            <li><span class="glyphicon glyphicon-search"><input type="text" placeholder="Search" /></li>-->
-<!--                            <li><a href="#">about</a></li>-->
-<!--                            <li><a href="#">support us</a></li>-->
-<!--                            <li><a href="#">contact</a></li>-->
-<!--                        </ul>-->
-<!--<!--                    <h4>Menu</h4>-->
-<!--<!--                    <span class="text-muted">Toggleabled crap here. Slide? </span>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <nav class="navbar navbar-light">-->
-<!--                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">-->
-<!--                    &#9776;-->
-<!--                </button>-->
-<!--            </nav>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--</div>-->
-
-<!--   <div class="container">-->
-<!--      <div class="navbar navbar-inverted">-->
-<!--         <div class="container-fluid">-->
-<!--            <div class="navbar-header">-->
-<!--               <a class="navbar-brand" href="index.php">TPJ</a>-->
-<!--            </div>-->
-<!--            <ul class="nav navbar-nav">-->
-<!--               <li class="active"><a href="index.php">Home</a></li>-->
-<!--               <li><a href="#">blogs</a></li>-->
-<!--               <li><a href="#">reports</a></li>-->
-<!--               <li><a href="#">sign-up</a></li>-->
-<!--               <li><span class="glyphicon glyphicon-search"><input type="text" placeholder="Search" /></li>-->
-<!--               <li><a href="#">about</a></li>-->
-<!--               <li><a href="#">support us</a></li>-->
-<!--               <li><a href="#">contact</a></li>-->
-<!--            </ul>-->
-<!--            </div>-->
-<!--         </div>-->
-<!--      </div>-->
 <div style="padding-top: 10rem">
       <h3>TPJ blog</h3>
 
