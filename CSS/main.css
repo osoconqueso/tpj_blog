@@ -49,7 +49,14 @@ img{
 .search {
     border-radius:2rem;
     color:black;
-    padding-left:1em; 
+    padding-left:1em;
+}
+
+#homeblogs{
+    background-color: #bababa;
+}
+.feature-content{
+    padding-top: 2rem;
 }
 
 /**********************************************************************
