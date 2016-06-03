@@ -37,3 +37,9 @@ img{
 #splish-cap h1{
     color: white;
 }
+
+.search {
+    border-radius:2rem;
+    color:black;
+    padding-left:1em; 
+}
