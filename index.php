@@ -43,10 +43,10 @@
 <div id="splish">
     <div id="splish-cap">
         <h1>Texans for Public Justice</h1>
-        <p>
+        <p id="signup-btn">
             <a href="" class="btn btn-md btn-info" style="display: inline">Sign up</a>
         </p>
-         <div class="input-group">
+         <div class="input-group" id="emailsignup">
                 <input type="text" class="form-control" placeholder="Email">
       <span class="input-group-btn">
         <button class="btn btn-info" type="button">Sign up!</button>
