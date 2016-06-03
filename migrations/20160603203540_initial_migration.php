@@ -47,4 +47,11 @@ class InitialMigration extends AbstractMigration
             ->addColumn('label_id', 'integer')
             ->save();
     }
+
+    public function down()
+    {
+        $this->dropTable("article");
+        $this->dropTable("label");
+        $this->dropTable("article_label");
+    }
 }
