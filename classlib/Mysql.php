@@ -3,7 +3,6 @@
 class Mysql {
 
     /**
-     * instantiated instance of the object
      * @var MySQL database
      */
 
@@ -11,31 +10,35 @@ class Mysql {
 
     public $db;
 
-    public function construct() {
-
+    public function construct()
+    {
+        //edit hostName, userName, and password to fit your mysql credentials on local host. keep database name as tpj
         $hostName = '127.0.0.1';
         $userName = 'root';
         $password = 'root';
         $database = 'tpj';
 
         //change this later to PDO::ERRMODE_SILENT
-        //ATTR_ERRMODE => PDO::ERRMODE_WARNING gives php error
         //change to PDO::ERRMODE_EXCEPTION  - when handling the errors with 'try'{} $ 'catch'{}
-
-        $this->db = new PDO("mysql:host=$hostName;dbname=$database", $userName, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
+        try {
+            $this->db = new PDO("mysql:host=$hostName;dbname=$database", $userName, $password);
+            $this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
+        } catch (Exception $e) {
+            echo 'Exception -> ';
+            var_dump($e->getMessage());
+        }
+    }
 
         /**
-         * Get a singleton instance of the database
          * @return Mysql database
          */
-        public static function getInstance()
-        {
-            if (!isset(self::$instance)) {
-                self::$instance = new self();
-            }
-
-            return self::$instance;
+    public static function getInstance()
+    {
+        if (!isset(self::$instance)) {
+            self::$instance = new self();
         }
 
+        return self::$instance;
     }
+
 }
