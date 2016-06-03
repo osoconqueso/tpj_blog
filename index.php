@@ -43,11 +43,21 @@
 <div id="splish">
     <div id="splish-cap">
         <h1>Texans for Public Justice</h1>
-        <a href="" class="btn btn-md btn-info">Sign up</a>
+        <p>
+            <a href="" class="btn btn-md btn-info" style="display: inline">Sign up</a>
+        </p>
+         <div class="input-group">
+                <input type="text" class="form-control" placeholder="Email">
+      <span class="input-group-btn">
+        <button class="btn btn-info" type="button">Sign up!</button>
+      </span>
+
+        </div>
+
     </div>
 </div>
 
-<div style="padding-top: 10rem">
+<div style="padding-top: 2rem">
       <h3>TPJ blog</h3>
 
       <div>

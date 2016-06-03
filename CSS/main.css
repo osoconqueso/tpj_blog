@@ -5,7 +5,6 @@ body{
 
 body{
 
-
 }
 
 img{
@@ -14,13 +13,18 @@ img{
 }
 #topnav
 {
-    padding-top: 5rem;
+    padding-top: 1rem;
     color: white;
 }
 
 #topnav a{
     color: white;
+
 }
+
+/*.input-group{*/
+    /*display: none;*/
+/*}*/
 
 
 #splish {
@@ -38,9 +42,25 @@ img{
     color: white;
 }
 
+#signup-btn{
+    display: flex;
+}
+
 .search {
     border-radius:2rem;
     color:black;
     padding-left:1em; 
 }
 
+/**********************************************************************
+Media Queries
+***********************************************************************/
+
+/*@media (min-device-width: 48em){*/
+    /*.input-group{*/
+        /*display: flex;*/
+    /*}*/
+    /*#signup-btn{*/
+        /*display: none;*/
+    /*}*/
+/*}*/
