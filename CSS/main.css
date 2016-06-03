@@ -1,0 +1,81 @@
+html,
+body{
+    height: 100%;
+}
+
+body{
+
+}
+
+img{
+
+    max-width: 100%;
+}
+#topnav
+{
+    padding-top: 1rem;
+    color: white;
+}
+
+#topnav a{
+    color: white;
+
+}
+
+#emailsignup{
+    display: none;
+}
+
+
+#splish {
+    background: url("../images/SplashImage0002.jpg") center center no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+#splish-cap h1{
+    color: white;
+}
+
+#signup-btn{
+    display: flex;
+}
+
+.search {
+    border-radius:2rem;
+    color:black;
+    padding-left:1em;
+}
+
+#homeblogs{
+    background-color: #bababa;
+}
+.feature-content{
+    padding-top: 2rem;
+}
+
+/**********************************************************************
+Media Queries
+***********************************************************************/
+@media(min-width:34em){}
+@media (min-device-width: 48em) {
+
+}
+@media(min-width:62em){
+    #signup-btn{
+        display: none;
+    }
+    #emailsignup {
+        display: flex;
+    }
+
+
+}
+@media(min-width:75em){
+
+}
