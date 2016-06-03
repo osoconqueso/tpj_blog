@@ -1,5 +1,5 @@
 <?php
-include("functions.php");
+//include("functions.php");
 ?>
 
 <html lang="en">
@@ -35,7 +35,7 @@ include("functions.php");
                 <a class="nav-link" href="#">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><span class="glyphicon glyphicon-search"><input type="text" placeholder="Search" />
+                <a class="nav-link" href="#"><input class="search" type="text" placeholder="Keyword" />
             </li>
         </ul>
     </div>
