@@ -57,6 +57,7 @@
                 <span class="input-group-btn">
                     <button class="btn btn-info" type="button">Sign up!</button>
                 </span>
+
             </div>
         </div>
     </div>
