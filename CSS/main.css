@@ -47,9 +47,19 @@ img{
 }
 
 .search {
-    border-radius:2rem;
+    border-radius:.2rem;
     color:black;
     padding-left:1em;
+}
+
+.downward{
+    color:#ffffff;
+    font-size: 4rem;
+    font-weight: bolder;
+    display:block;
+    align-content: center;
+    margin-bottom: 0;
+
 }
 
 #homeblogs{
@@ -58,6 +68,21 @@ img{
 .feature-content{
     padding-top: 2rem;
 }
+
+.btn-info {
+    background-color: #748b7e;
+    border-color: #748b7e;
+}
+
+.btn-info:hover{
+    background-color: #3c5346;
+    border-color: #3c5346;
+}
+
+h3{
+    text-align: center;
+}
+
 
 /**********************************************************************
 Media Queries

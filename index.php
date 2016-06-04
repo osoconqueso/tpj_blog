@@ -20,7 +20,8 @@
 
 <nav class="navbar navbar-light navbar-fixed-top" id="topnav">
     <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#tpjNavbar">
-        &#9776;
+       &#9776;
+
     </button>
     <a class="navbar-brand" href="#">TPJ(logo)</a>
     <div class="collapse navbar-toggleable-xs" id="tpjNavbar">
@@ -53,10 +54,13 @@
       </span>
 
         </div>
-
     </div>
 </div>
+
 <section id="homeblogs">
+    <p class="text-xs-center downward">&#x25bd; &#x25bd; &#x25bd;</p>
+
+
     <!--  container-fluid is for full width  container, spanning entire viewport width  -->
     <div class="container-fluid">
         <div class="row">
