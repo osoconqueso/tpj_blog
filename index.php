@@ -76,17 +76,6 @@
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </div>
-<!--                <div>-->
-<!--                    <ul class="nav">-->
-<!--                        <li class="sort-swap"><a href="index.php" title="sort by...">sort by</a>-->
-<!--                            <ul class="dropdown">-->
-<!--                                <li><a href="index.php?sort=id ASC">sort by date</a></li>-->
-<!--                                <li><a href="index.php?sort=title ASC">sort by show</a></li>-->
-<!--                            </ul>-->
-<!--                        </li>-->
-<!--                        <li class="newpost-swap"><a href="post_article.php" title="post new article">new post</a></li>-->
-<!--                    </ul>-->
-<!--                </div>-->
             </div>
         </div>
     </div>
