@@ -13,10 +13,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
     <!-- custom css   -->
     <link rel="stylesheet" href="CSS/main.css">
+    <script src="js/tpj.js" type="text/javascript" ></script>
 
 </head>
 
-<body>
+<body onload="colorFade()">
 
 <nav class="navbar navbar-light navbar-fixed-top" id="topnav">
     <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#tpjNavbar">
@@ -41,6 +42,7 @@
         </ul>
     </div>
 </nav>
+
 <!--grayscale image-->
 <div id="splishbottom">
     <!-- color image -->
@@ -121,5 +123,9 @@
 <!-- jQuery library followed by Bootstrap JS -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+
+
+
+
 </body>
 </html>
