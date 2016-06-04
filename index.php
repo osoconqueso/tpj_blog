@@ -66,21 +66,43 @@
         <div class="row">
             <div class="feature-content">
                 <h3>TPJ blog</h3>
-                <div>
-                    <ul class="nav">
-                        <li class="sort-swap"><a href="index.php" title="sort by...">sort by</a>
-                            <ul class="dropdown">
-                                <li><a href="index.php?sort=id ASC">sort by date</a></li>
-                                <li><a href="index.php?sort=title ASC">sort by show</a></li>
-                            </ul>
-                        </li>
-                        <li class="newpost-swap"><a href="post_article.php" title="post new article">new post</a></li>
-                    </ul>
+                <div class="dropdown closed">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        sort articles by
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <a class="dropdown-item" href="index.php?sort=id ASC">sort by date</a>
+                        <a class="dropdown-item" href="index.php?sort=title ASC">sort by show</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
                 </div>
+<!--                <div>-->
+<!--                    <ul class="nav">-->
+<!--                        <li class="sort-swap"><a href="index.php" title="sort by...">sort by</a>-->
+<!--                            <ul class="dropdown">-->
+<!--                                <li><a href="index.php?sort=id ASC">sort by date</a></li>-->
+<!--                                <li><a href="index.php?sort=title ASC">sort by show</a></li>-->
+<!--                            </ul>-->
+<!--                        </li>-->
+<!--                        <li class="newpost-swap"><a href="post_article.php" title="post new article">new post</a></li>-->
+<!--                    </ul>-->
+<!--                </div>-->
             </div>
         </div>
     </div>
+
+    <h5>
+    Slap owner's face at 5am until human fills food dish lie on your belly and purr when you are asleep
+    </h5>
+    <p>
+
+        Blogs here. Tap/Click to expand.<br>
+    </p>
+
 </section>
+<footer>
+    Ignore the squirrels, you'll never catch them anyway. Eat a plant, kill a hand.
+</footer>
 
 
 
