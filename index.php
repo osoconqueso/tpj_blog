@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--"shrink-to-fit=no" can be added below after "initial scale=1" for Safari 9.0 users to override behaviour that scales down the page-->
+    <!--"shrink-to-fit=no" for Safari 9.0 users to override behaviour that scales down the page-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>tpj blog</title>
     <!-- Bootstrap 4 CDN link -->
@@ -41,18 +41,21 @@
         </ul>
     </div>
 </nav>
-<div id="splish">
-    <div id="splish-cap">
-        <h1>Texans for Public Justice</h1>
-        <p id="signup-btn">
-            <a href="" class="btn btn-md btn-info" style="display: inline">Sign up</a>
-        </p>
-        <div class="input-group" id="emailsignup">
-            <input type="text" class="form-control" placeholder="Email">
-      <span class="input-group-btn">
-        <button class="btn btn-info" type="button">Sign up!</button>
-      </span>
-
+<!--grayscale image-->
+<div id="splishbottom">
+    <!-- color image -->
+    <div id="splishtop">
+        <div id="splish-cap">
+            <h1>Texans for Public Justice</h1>
+            <p id="signup-btn">
+                <a href="" class="btn btn-md btn-info" style="display: inline">Sign up</a>
+            </p>
+            <div class="input-group" id="emailsignup">
+                <input type="text" class="form-control" placeholder="Email">
+                <span class="input-group-btn">
+                    <button class="btn btn-info" type="button">Sign up!</button>
+                </span>
+            </div>
         </div>
     </div>
 </div>
