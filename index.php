@@ -43,10 +43,8 @@
     </div>
 </nav>
 
-<!--grayscale image-->
-<div id="splishbottom">
-    <!-- color image -->
-    <div id="splishtop">
+
+<div id="splish">
         <div id="splish-cap">
             <h1>Texans for Public Justice</h1>
             <p id="signup-btn">
@@ -57,8 +55,6 @@
                 <span class="input-group-btn">
                     <button class="btn btn-info" type="button">Sign up!</button>
                 </span>
-
-            </div>
         </div>
     </div>
 </div>
