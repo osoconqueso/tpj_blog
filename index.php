@@ -21,7 +21,7 @@
 
 <nav class="navbar navbar-light navbar-fixed-top" id="topnav">
     <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#tpjNavbar">
-       &#9776;
+        &#9776;
 
     </button>
     <a class="navbar-brand" href="#">TPJ(logo)</a>
@@ -43,8 +43,10 @@
     </div>
 </nav>
 
-
-<div id="splish">
+<!--grayscale image-->
+<div id="splishbottom">
+    <!-- color image -->
+    <div id="splishtop">
         <div id="splish-cap">
             <h1>Texans for Public Justice</h1>
             <p id="signup-btn">
@@ -55,6 +57,8 @@
                 <span class="input-group-btn">
                     <button class="btn btn-info" type="button">Sign up!</button>
                 </span>
+
+            </div>
         </div>
     </div>
 </div>
@@ -83,7 +87,7 @@
     </div>
 
     <h5>
-    Slap owner's face at 5am until human fills food dish lie on your belly and purr when you are asleep
+        Slap owner's face at 5am until human fills food dish lie on your belly and purr when you are asleep
     </h5>
     <p>
 
@@ -100,16 +104,16 @@
 
 
 <div id = "content">
-<!--    --><?php
-//
-//    if (isset($_GET['sort'])) {
-//        $sort = $_GET['sort'];
-//        print_all_articles($sort);
-//    } else {
-//        print_all_articles();
-//    }
-//
-//    ?>
+    <!--    --><?php
+    //
+    //    if (isset($_GET['sort'])) {
+    //        $sort = $_GET['sort'];
+    //        print_all_articles($sort);
+    //    } else {
+    //        print_all_articles();
+    //    }
+    //
+    //    ?>
 
 </div>
 <!--<div>-->
