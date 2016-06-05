@@ -43,19 +43,17 @@
     </div>
 </nav>
 <div>
-    <div>
-        <div id="splishbottom">
-            <div id="splish-cap">
-                <h1>Texans for Public Justice</h1>
-                <p id="signup-btn">
-                    <a href="" class="btn btn-md btn-info" style="display: inline">Sign up</a>
-                </p>
-                <div class="input-group" id="emailsignup">
-                    <input type="text" class="form-control" placeholder="Email">
-                    <span class="input-group-btn">
-                        <button class="btn btn-info" type="button">Sign up!</button>
-                    </span>
-                </div>
+    <div id="splishbottom">
+        <div id="splish-cap">
+            <h1>Texans for Public Justice</h1>
+            <p id="signup-btn">
+                <a href="" class="btn btn-md btn-info" style="display: inline">Sign up</a>
+            </p>
+            <div class="input-group" id="emailsignup">
+                <input type="text" class="form-control" placeholder="Email">
+                <span class="input-group-btn">
+                    <button class="btn btn-info" type="button">Sign up!</button>
+                </span>
             </div>
         </div>
     </div>
@@ -83,14 +81,42 @@
             </div>
         </div>
     </div>
+    <div id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne">
+                <h4 class="panel-title">
+                    Slap Owner's Face at 5am Until Human Fills Food Dish
+                </h4>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        lie on your belly and purr when you are asleep
+                        officia aute, non cupidatat skateboard dolor brunch.
+                            Food truck quinoa nesciunt laborum eiusmod. Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
 
+                            wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil
+                            anim keffiyeh helvetica, craft beer labore wes anderson cred
+                            nesciunt sapiente ea proident.<br><br>
+                        click anywhere above (more/less)
+                    </a>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+
+                            wolf moon tempor, sunt aliqua put a bird on it squid<br>
+                            single-origin coffee nulla assumenda shoreditch et. Nihil
+                            anim keffiyeh helvetica, craft beer labore wes anderson cred
+                            nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                            aesthetic synth nesciunt you probably haven't heard of them
+                            accusamus labore sustainable VHS.
+
+            </div>
+
+        </div>
+    </div>
     <h5>
-        Slap owner's face at 5am until human fills food dish lie on your belly and purr when you are asleep
-    </h5>
-    <p>
+            </h5>
 
-        Blogs here. Tap/Click to expand.<br>
-    </p>
 
 </section>
 <footer>
