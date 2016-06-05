@@ -36,6 +36,8 @@ img{
     width: 100%;
     display: flex;
     align-items: center;
+    opacity: .99;
+
 }
 
 #splishbottom {
@@ -46,7 +48,7 @@ img{
     width: 100%;
     display: flex;
     align-items: center;
-
+    position: absolute;
 }
 
 #splish-cap h1{

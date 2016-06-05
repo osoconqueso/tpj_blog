@@ -17,7 +17,7 @@
 
 </head>
 
-<body onload="colorFade()">
+<body onload="colorFade()" >
 
 <nav class="navbar navbar-light navbar-fixed-top" id="topnav">
     <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#tpjNavbar">
@@ -37,32 +37,30 @@
                 <a class="nav-link" href="#">Contact</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"><input class="search" type="text" placeholder="Keyword" />
+                <a class="nav-link" href="#"><input class="search" type="text" placeholder="Keyword" /></a>
             </li>
         </ul>
     </div>
 </nav>
-
-<!--grayscale image-->
-<div id="splishbottom">
-    <!-- color image -->
-    <div id="splishtop">
-        <div id="splish-cap">
-            <h1>Texans for Public Justice</h1>
-            <p id="signup-btn">
-                <a href="" class="btn btn-md btn-info" style="display: inline">Sign up</a>
-            </p>
-            <div class="input-group" id="emailsignup">
-                <input type="text" class="form-control" placeholder="Email">
-                <span class="input-group-btn">
-                    <button class="btn btn-info" type="button">Sign up!</button>
-                </span>
-
+<div>
+    <div>
+        <div id="splishbottom">
+            <div id="splish-cap">
+                <h1>Texans for Public Justice</h1>
+                <p id="signup-btn">
+                    <a href="" class="btn btn-md btn-info" style="display: inline">Sign up</a>
+                </p>
+                <div class="input-group" id="emailsignup">
+                    <input type="text" class="form-control" placeholder="Email">
+                    <span class="input-group-btn">
+                        <button class="btn btn-info" type="button">Sign up!</button>
+                    </span>
+                </div>
             </div>
         </div>
     </div>
+    <div id="splishtop"></div>
 </div>
-
 <section id="homeblogs">
     <p class="text-xs-center downward">&#x25bd; &#x25bd; &#x25bd;</p>
 
