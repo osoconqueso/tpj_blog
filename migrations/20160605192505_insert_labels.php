@@ -27,56 +27,63 @@ class InsertLabels extends AbstractMigration
      */
     public function up()
     {
-        $rows = [
-            [
-                'label_name'  => 'press releases'
-            ],
-            [
-                'label_name'  => 'Ken Paxton'
-            ],
-            [
-                'label_name'  => 'lobby watch'
-            ],
-            [
-                'label_name'  => 'ethics complaints'
-            ],
-            [
-                'label_name'  => 'Greg Abbott'
-            ],
+
+        $exists = $this->hasTable('label');
+        if (!$exists) {
+            $rows = [
+                [
+                    'label_name' => 'press releases'
+                ],
+                [
+                    'label_name' => 'Ken Paxton'
+                ],
+                [
+                    'label_name' => 'lobby watch'
+                ],
+                [
+                    'label_name' => 'ethics complaints'
+                ],
+                [
+                    'label_name' => 'Greg Abbott'
+                ],
             ];
 
-        $this->insert('label', $rows);
+            $this->insert('label', $rows);
+        }
 
-        $label_rows = [
-            [
-                'article_id'    => 2,
-                'label_id'  => 1
-            ],[
-                'article_id'    => 2,
-                'label_id'  => 2
-            ],[
-                'article_id'    => 3,
-                'label_id'  => 2
-            ],[
-                'article_id'    => 4,
-                'label_id'  => 2
-            ],
-            [
-                'article_id'    => 4,
-                'label_id'  => 3
-            ],
-            [
-                'article_id'    => 5,
-                'label_id'  => 2
-            ],
-        ];
+        $exists1 = $this->hasTable('article_label');
+        if (!$exists1) {
+            $label_rows = [
+                [
+                    'article_id' => 2,
+                    'label_id' => 1
+                ], [
+                    'article_id' => 2,
+                    'label_id' => 2
+                ], [
+                    'article_id' => 3,
+                    'label_id' => 2
+                ], [
+                    'article_id' => 4,
+                    'label_id' => 2
+                ],
+                [
+                    'article_id' => 4,
+                    'label_id' => 3
+                ],
+                [
+                    'article_id' => 5,
+                    'label_id' => 2
+                ],
+            ];
+        }
 
             $this->insert('article_label', $label_rows);
     }
 
     public function down()
     {
-//        $this->execute("truncate label");
-//        $this->execute("truncate article_label");
+        $this->execute("truncate label");
+        $this->execute("truncate article_label");
     }
 }

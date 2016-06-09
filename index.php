@@ -84,9 +84,39 @@
     <div id="accordion" role="tablist" aria-multiselectable="true">
         <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingOne">
+
+                <?php
+                require("classlib/Mysql.php");
+                require("classlib/Post.php");
+
+                $post = new Post();
+                $postArray = $post->getAllPosts();
+
+                foreach ($postArray as $article) {
+                    ?>
+                    <div>
+                        <h3><?= $article['title'] ?></h3>
+                        <p><?= $article['author'] ?></p>
+                        <p><?= $article['content'] ?></p>
+                        <p><?= $article['date_updated'] ?></p>
+                    </div>
+
+                    <?php
+                    $labelArray = $post->getLabels($article['id']);
+                    foreach ($labelArray as $label) {
+                        ?>
+                        <ul><?= $label ?></ul>
+                        <?php
+                    }
+                }
+                ?>
+
                 <h4 class="panel-title">
                     Slap Owner's Face at 5am Until Human Fills Food Dish
                 </h4>
+
+                <h3>
+
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         lie on your belly and purr when you are asleep
                         officia aute, non cupidatat skateboard dolor brunch.
@@ -98,7 +128,7 @@
                             nesciunt sapiente ea proident.<br><br>
                         click anywhere above (more/less)
                     </a>
-            </div>
+            </h3>
             <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                 Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
 
@@ -122,29 +152,6 @@
 <footer>
     Ignore the squirrels, you'll never catch them anyway. Eat a plant, kill a hand.
 </footer>
-
-
-
-
-
-<div id = "content">
-    <!--    --><?php
-    //
-    //    if (isset($_GET['sort'])) {
-    //        $sort = $_GET['sort'];
-    //        print_all_articles($sort);
-    //    } else {
-    //        print_all_articles();
-    //    }
-    //
-    //    ?>
-
-</div>
-<!--<div>-->
-<!--    <p>Color palette brought to you by <a href="http://pokepalettes.com/#geodude">Geodude</a></p>-->
-<!--    <p>Summaries from <a href="http://imdb.com">IMDB</a></p>-->
-<!--</div>-->
-</div>
 <!-- jQuery library followed by Bootstrap JS -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>

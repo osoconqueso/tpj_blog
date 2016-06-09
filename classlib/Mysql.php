@@ -1,18 +1,20 @@
 <?php
 
-class Mysql {
+class Mysql
+{
 
     /**
-     * @var MySQL database
+     * @var Mysql
      */
-
     private static $instance;
 
+    /**
+     * @var PDO
+     */
     public $db;
 
-    public function construct()
+    public function __construct()
     {
-        //edit hostName, userName, and password to fit your mysql credentials on local host. keep database name as tpj
         $hostName = '127.0.0.1';
         $userName = 'root';
         $password = 'root';
@@ -29,9 +31,9 @@ class Mysql {
         }
     }
 
-        /**
-         * @return Mysql database
-         */
+    /**
+     * @return Mysql database
+     */
     public static function getInstance()
     {
         if (!isset(self::$instance)) {
