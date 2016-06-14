@@ -97,7 +97,16 @@ class Post {
         $labels = [];
         if (!empty($inId)) {
             $mysql = Mysql::getInstance();
-            $labelQuery = $mysql->db->prepare("SELECT label.* FROM article_label LEFT JOIN (label) ON (article_label.label_id = label.id) WHERE article_label.article_id = " . $inId);
+            # I don't get this query - join label to article_label?
+            # I expected to join between label and article
+            #   ~ 2016-06-13 RFM
+            $labelQuery = $mysql->db->prepare("
+                SELECT label.*
+                FROM article_label
+                LEFT JOIN (label)
+                    ON (article_label.label_id = label.id)
+                WHERE article_label.article_id = " . $inId
+            );
             $labelQuery->execute();
             $result = $labelQuery->fetchAll();
             $labelArray = [];
