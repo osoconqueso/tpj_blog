@@ -142,9 +142,14 @@ class Post {
 
     }
 
-    public function getAllPosts() {
+    public function getAllPosts($limit = null) {
         $mysql = Mysql::getInstance();
+
         $sql = "select id, title, author, content, date_updated from article";
+        if ($limit) {
+            $sql .= " limit $limit";
+        }
+
         $sth = $mysql->db->prepare($sql);
         $sth->execute();
         $result = $sth->fetchAll();
